@@ -87,10 +87,7 @@ The project includes the following main pages/sections:
 - Wikipedia REST API
 
 
-
 📂 Project Structure
-
-
 TravelNest/
 │── index.html
 │── style.css
@@ -102,14 +99,13 @@ TravelNest/
 │── nature.jpg
 │── travel.jpg
 │── README.md
-```
 
 
 🚀 How to Run
 
 1. Download or clone the project.
 2. Open the project folder.
-3. Open **index.html** in any web browser.
+3. Open index.html in any web browser.
 4. Ensure you have an internet connection for the destination search feature (Wikipedia API).
 
 
