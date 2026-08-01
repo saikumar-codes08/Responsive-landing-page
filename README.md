@@ -120,3 +120,10 @@ TravelNest/
 - Responsive design for desktop and mobile devices.
 
 output:
+<img width="1876" height="902" alt="Image" src="https://github.com/user-attachments/assets/701276e9-aafc-4e86-8e07-c24a5d582ef5" />
+
+<img width="1877" height="902" alt="Image" src="https://github.com/user-attachments/assets/5dc461de-f3f5-4cc8-8fe1-88462c38c4fb" />
+
+<img width="1867" height="896" alt="Image" src="https://github.com/user-attachments/assets/6a8a03c8-422d-454d-ade4-cb54a88d7314" />
+
+<img width="1877" height="910" alt="Image" src="https://github.com/user-attachments/assets/25e46a0c-b8bb-4e1e-85a9-e2cd0e65cc01" />
