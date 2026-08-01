@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Nest</title>
+    <link rel="icon" href="favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>🌍 Travel Nest</h1>        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+                    </ul>
+    </nav>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="hero-text">
+
+<h2>Adventure Starts With Us</h2>
+
+<p>
+Explore breathtaking destinations,
+enjoy premium travel experiences,
+and create lifelong memories.
+</p>
+
+<a href="#booking">
+<button>Book Now</button>
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="travel.jpg" alt="Travel">
+
+</div>
+
+</div>
+
+</section>
+<section class="about">
+
+<h2>About Travel Nest</h2>
+
+<p>
+Travel Nest is your trusted travel companion helping travelers discover exciting destinations across the world. We provide premium travel experiences with affordable packages and unforgettable memories.
+</p>
+
+<br>
+
+<img src="about.jpg" alt="About">
+
+<br><br>
+
+
+
+</section>
+         <section class="destinations" id="destinations">
+
+    <h2>Popular Destinations</h2>
+<div class="filter-buttons">
+
+<button onclick="filterDestination('all')">All</button>
+
+<button onclick="filterDestination('beach')">Beach</button>
+
+<button onclick="filterDestination('mountain')">Mountain</button>
+
+<button onclick="filterDestination('nature')">Nature</button>
+
+</div>
+
+<br>
+<input
+type="text"
+id="searchDestination"
+placeholder="Search any city in the world...">
+
+<button onclick="searchDestination()">
+🔍 Search
+</button>
+<div id="searchResult"></div>
+<br><br>
+<div class="cards">
+
+<div class="card destination-card" data-type="beach">
+
+<img src="beach.jpg" alt="Goa">
+
+<h3>🏖️ Goa</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>Starting from ₹9,999</p>
+
+
+</div>
+
+<div class="card destination-card" data-type="mountain">
+
+<img src="mountain.jpg" alt="Manali">
+
+<h3>🏔️ Manali</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>Starting from ₹12,999</p>
+
+</div>
+
+<div class="card destination-card" data-type="nature">
+
+<img src="nature.jpg" alt="Kerala">
+
+<h3>🌴 kerala</h3>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<p>Starting from ₹14,999</p>
+
+
+</div>
+
+</div>
+</section>
+<section class="why-us">
+
+<h2>Why Choose Travel Nest?</h2>
+
+<div class="why-container">
+
+<div class="why-card">
+<h3>💰 Affordable Prices</h3>
+<p>Best travel deals with no hidden charges.</p>
+</div>
+
+<div class="why-card">
+<h3>🛡 Safe Travel</h3>
+<p>Your safety is our first priority.</p>
+</div>
+
+<div class="why-card">
+<h3>📞 24/7 Support</h3>
+<p>Our team is always available to help.</p>
+</div>
+
+<div class="why-card">
+<h3>⭐ Trusted by Thousands</h3>
+<p>Over 25,000 happy travelers worldwide.</p>
+</div>
+
+</div>
+
+</section>
+<section class="stats">
+
+    <div class="stat">
+        <h2>750+</h2>
+        <p>🌍 Destinations</p>
+
+    </div>
+
+    <div class="stat">
+        <h2>25000+</h2>
+        <p>😊 Happy Travelers</p>
+
+    </div>
+
+    <div class="stat">
+        <h2>120+</h2>
+        <p>🎒 Tour Packages</p>
+    </div>
+
+</section>
+<section class="testimonials">
+
+    <h2>Traveler Reviews</h2>
+
+    <div class="review">
+        <p>"Amazing experience! The Goa package was fantastic."</p>
+        <h4>Rohit Verma</h4>
+    </div>
+
+    <div class="review">
+        <p>"Very affordable and well-organized trip."</p>
+        <h4>Ananya Gupta</h4>
+    </div>
+
+    <div class="review">
+        <p>"Best travel service I have ever used."</p>
+        <h4>Kiran Patel</h4>
+    </div>
+
+</section>
+<section class="packages">
+
+    <h2>Popular Packages</h2>
+    <br><br>
+
+    <div class="package-container">
+
+            <div class="package package-card" id="Family Escape">
+            <h3>Family Escape</h3>
+            <p>4 Days / 3 Nights</p>
+            <h4>₹15,999</h4>
+        </div>
+
+            <div class="package package-card" id="Adventure tour">        
+            <h3>Adventure tour</h3>
+            <p>5 Days / 4 Nights</p>
+            <h4>₹22,999</h4>
+        </div>
+        <div class="package package-card" id="Luxury Retreat">
+        <h3>Luxury Retreat</h3>
+            <p>6 Days / 5 Nights</p>
+            <h4>₹34,999</h4>
+        </div>
+         <div class="package package-card">
+    <h3>International Explorer</h3>
+    <p>7 Days / 6 Nights</p>
+    <h4>₹79,999</h4>
+</div>
+
+<div class="package package-card">
+    <h3>Honeymoon Special</h3>
+    <p>5 Days / 4 Nights</p>
+    <h4>₹1,59,999</h4>
+</div>
+    </div>
+
+</section>
+<section class="gallery">
+
+    <h2>Travel Gallery</h2>
+    <div class="gallery-container">
+
+<img src="beach.jpg" alt="Beach">
+
+<img src="mountain.jpg" alt="Mountain">
+
+<img src="nature.jpg" alt="Nature">
+
+<img src="travel.jpg" alt="Travel">
+
+</div>
+ </section>       
+
+<section class="booking" id="booking">
+    <h2>Book Your Trip</h2>
+
+    <input type="text" id="name" placeholder="Your Name">
+    <br><br>
+
+    <input type="email" id="email" placeholder="Your Email">
+    <br><br>
+    <input type="date" id="date">
+
+<br><br>
+<input
+type="number"
+id="people"
+placeholder="Number of Travelers">
+
+<br><br>
+<select id="destination" onchange="showPackage()">
+
+<option value="" selected>Select Destination</option>
+
+<option>Goa</option>
+<option>Manali</option>
+<option>Kerala</option>
+<option>Hyderabad</option>
+<option>Bengaluru</option>
+<option>Chennai</option>
+<option>Mumbai</option>
+<option>Delhi</option>
+<option>Kolkata</option>
+<option>Pune</option>
+<option>Jaipur</option>
+<option>Agra</option>
+<option>Mysore</option>
+<option>Ooty</option>
+<option>Shimla</option>
+<option>Darjeeling</option>
+<option>Kashmir</option>
+<option>Andaman</option>
+<option>Ladakh</option>
+<option>Udaipur</option>
+<option>Dubai</option>
+<option>Paris</option>
+<option>London</option>
+<option>Singapore</option>
+<option>Tokyo</option>
+<option>New York</option>
+<option>Sydney</option>
+<option>Bangkok</option>
+<option>Maldives</option>
+<option>Bali</option>
+<option>Switzerland</option>
+<option>Goa</option>
+<option>Manali</option>
+<option>Kerala</option>
+
+<option>Anantapur</option>
+<option>Lepakshi</option>
+<option>Puttaparthi</option>
+<option>Hindupur</option>
+<option>Dharmavaram</option>
+<option>Gooty</option>
+<option>Tadipatri</option>
+<option>Kadiri</option>
+<option>Penukonda</option>
+<option>Rayadurg</option>
+<option>Kalyandurg</option>
+
+<option>Tirupati</option>
+<option>Srikalahasti</option>
+<option>Chittoor</option>
+<option>Horsley Hills</option>
+
+<option>Kadapa</option>
+<option>Gandikota</option>
+
+<option>Kurnool</option>
+<option>Ahobilam</option>
+<option>Belum Caves</option>
+<option>Orvakal</option>
+
+<option>Nandyal</option>
+<option>Srisailam</option>
+
+<option>Vijayawada</option>
+<option>Amaravati</option>
+<option>Guntur</option>
+<option>Mangalagiri</option>
+
+<option>Visakhapatnam</option>
+<option>Araku Valley</option>
+<option>Borra Caves</option>
+<option>Rushikonda Beach</option>
+<option>Yarada Beach</option>
+
+<option>Rajahmundry</option>
+<option>Papikondalu</option>
+
+<option>Kakinada</option>
+<option>Coringa Wildlife Sanctuary</option>
+
+<option>Nellore</option>
+<option>Mypadu Beach</option>
+
+<option>Ongole</option>
+
+<option>Machilipatnam</option>
+
+<option>Srikakulam</option>
+<option>Vizianagaram</option>
+
+<option>Eluru</option>
+<option>Bhimavaram</option>
+<option>Narasapuram</option>
+
+<option>Palakollu</option>
+</select>
+       
+<div id="packagePreview"></div>
+<br>
+    <button onclick="bookTrip()">✈ Book My Trip</button>
+    <div id="bookingDetails"></div>
+
+</section>
+<section class ="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<div class="contact-box">
+
+<p>📍 Bengaluru, India</p>
+
+<p>📞 +91 9876543210</p>
+
+<p>📧 Travelnest@gmail.com</p>
+
+<p>🕒 Mon - Sat : 9 AM - 7 PM</p>
+
+</div>
+
+</section>
+<footer>
+
+<div class="footer-container">
+
+<div>
+
+<h3>Travel Nest</h3>
+
+<p>Explore More. Travel Better.</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<p>Home</p>
+
+<p>Destinations</p>
+
+<p>Gallery</p>
+
+<p>Contact</p>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<p>🌐 Facebook</p>
+
+<p>📷 Instagram</p>
+
+<p>▶ YouTube</p>
+
+</div>
+
+</div>
+
+<p>© 2026 Travel Nest. All Rights Reserved.</p>
+
+</footer>
+    
+
+<a href="#home" class="top-btn">↑</a>
+<script src="script.js"></script>
+</body>
+</html>
